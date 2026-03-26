@@ -1,0 +1,6 @@
+def seq_to_one(n):
+    if n > 0:
+        return list(range(n, 0, -1))
+
+    else:
+        return list(range(n, 2))
